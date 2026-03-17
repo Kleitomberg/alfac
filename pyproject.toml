@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "alfac"
-version = "0.1.1"
+version = "0.1.2"
 description = "Validador de CNPJ Alfanumérico conforme novas normas do Governo (2024)."
 authors = ["kleitomberg <kss@cin.ufpe.br>"]
 readme = "README.md"
