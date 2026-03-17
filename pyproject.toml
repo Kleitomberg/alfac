@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "alfac"
+version = "0.1.0"
+description = "Validador de CNPJ Alfanumérico conforme novas normas do Governo (2024)."
+authors = ["kleitomberg <kss@cin.ufpe.br>"]
+readme = "README.md"
+
+keywords = ["cnpj", "alfanumerico", "validador", "governo", "brasil"]
+license = "MIT"
+
+# Mova os classifiers para cá
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

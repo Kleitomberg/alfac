@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches de ferramentas e ambientes
+.pytest_cache/
+.mypy_cache/
+.venv/
+env/
+venv/
+ENV/
+
+# Arquivos de Build e Distribuição
+dist/
+build/
+*.egg-info/
+
+# Configurações do VS Code ou outros editores
+.vscode/
+.idea/
+
+# Poetry (O poetry.lock deve ir para o Git, mas arquivos temporários não)
+.python-version
