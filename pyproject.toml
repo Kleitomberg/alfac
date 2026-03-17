@@ -7,6 +7,7 @@ readme = "README.md"
 
 keywords = ["cnpj", "alfanumerico", "validador", "governo", "brasil"]
 license = "MIT"
+repository = "https://github.com/Kleitomberg/alfac"
 
 # Mova os classifiers para cá
 classifiers = [
